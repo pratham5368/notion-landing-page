@@ -60,7 +60,7 @@ const ActionButtons = () => {
         </Link>
         <Link href={"/contact"}>
           <Button
-          className="hidden lg:block"
+          className="hidden lg:block text-balance"
           
           >Get Bird free</Button>
         </Link>

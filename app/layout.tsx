@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Outfit } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
-const font = Outfit({ subsets: ['latin'] })
+const font = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Your Connected Workspace',
-  description: 'Bird - Simple and powerful notes & docs for teams',
+  description: 'Simple and powerful notes & docs for teams',
 }
 
 export default function RootLayout({

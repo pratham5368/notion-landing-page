@@ -25,8 +25,8 @@ const Navbar = () => {
   }, []);
 
   const navbarClasses = `
-    flex items-center justify-between space-x-10 bg-white  h-14
-    sticky top-0 z-50 border-b border-gray-200
+    flex items-center justify-between space-x-10 bg-white  h-20
+    sticky top-0 z-50 border-b border-gray-200 mx-5 ml-8
   `;
 
   return (

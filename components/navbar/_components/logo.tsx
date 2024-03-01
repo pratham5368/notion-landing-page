@@ -7,12 +7,12 @@ const Logo = () => {
          <>
             <Link href={"/"}>
                 <Image
-                    src="/logos/bird-logo.png"
+                    src="next.svg"
                     alt="logo"
-                    width={150}
-                    height={150}
+                    width={120}
+                    height={90}
                     className="
-                    w-24
+                    w-24 mx-3
                   "
                     />
             </Link>

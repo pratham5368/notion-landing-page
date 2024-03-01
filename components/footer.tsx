@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {  PiFacebookLogoFill, PiInstagramLogo, PiInstagramLogoFill, PiLinkedinLogoFill, PiTwitterLogoFill, PiYoutubeLogoFill } from "react-icons/pi";
+import {  PiFacebookLogoFill, PiInstagramLogoFill, PiLinkedinLogoFill, PiTwitterLogoFill, PiYoutubeLogoFill } from "react-icons/pi";
 
 const Footer = () => {
     return ( 
@@ -9,15 +9,15 @@ const Footer = () => {
                 <div className="lg:flex  lg:space-x-32 md:px-0 ">
 
 
-                <div className="pt-4">
+                <div className="pt-12">
 <Image
-    src="/logos/bird-logo.png"
+    src="next.svg"
     width={1025}
     height={500}
     alt="logo"
     className=" w-28 "
 />
-<div className="flex  space-x-2">
+<div className="flex pt-5  space-x-2">
 
 
 <PiInstagramLogoFill className="text-2xl text-gray-500" />
